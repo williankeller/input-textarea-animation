@@ -79,7 +79,7 @@
         }
         
         // Set content with the new Height
-        $(this).height(y).height(this.scrollHeight - dY).addClass('sizes');
+        $(this).height(y).height(this.scrollHeight - dY);
         
         // Set the window position
         $window.scrollTop(position);
