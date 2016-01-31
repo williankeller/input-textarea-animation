@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Input-textarea-animation by williankeller</title>
+    <title>Input Textarea Animation by Willian Keller</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-light.css">
@@ -14,36 +14,35 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
-        <h1>Input-textarea-animation</h1>
-        <p>The great input/textarea animation to follow the content or font size. Just try it.</p>
-
-        <p class="view"><a href="https://github.com/williankeller/input-textarea-animation">View the Project on GitHub <small>williankeller/input-textarea-animation</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/williankeller/input-textarea-animation/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/williankeller/input-textarea-animation/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/williankeller/input-textarea-animation">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
       <section>
         <h1>
-<a id="input-textarea-animation" class="anchor" href="#input-textarea-animation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Input Textarea Animation</h1>
+			<a id="input-textarea-animation" class="anchor" href="#input-textarea-animation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Input Textarea Animation</h1>
 
-<p>The great input/textarea animation to follow the content or font size. Just try it.</p>
+		<p>The great input/textarea animation to follow the content or font size. Just try it.</p>
+		<div class="container">
+	      <textarea class="exemple-one"></textarea>
+	    </div>
+	    <div class="container">
+	      <textarea class="exemple-two"></textarea>
+	    </div>
+	    <div class="container">
+	      <input type="text" class="exemple-three">
+	    </div>
+	    
+		<h3><a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use:</h3>
 
-<h3>
-<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use:</h3>
-
-<div class="highlight highlight-source-js"><pre><span class="pl-en">$</span>(<span class="pl-s"><span class="pl-pds">'</span>.my-textarea<span class="pl-pds">'</span></span>).<span class="pl-en">inputTextarea</span>();</pre></div>
+		<div class="highlight highlight-source-js"><pre><span class="pl-en">$</span>(<span class="pl-s"><span class="pl-pds">'</span>.my-textarea<span class="pl-pds">'</span></span>).<span class="pl-en">inputTextarea</span>();</pre></div>
       </section>
       <footer>
-        <p>This project is maintained by <a href="https://github.com/williankeller">williankeller</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p>This project is maintained by <a href="https://github.com/williankeller">Willian Keller</a></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="javascripts/inputTextarea.js"></script>
+	<script>
+		$('.exemple-one').inputTextarea();
+	    $('.exemple-two').inputTextarea();
+	    $('.exemple-three').inputTextarea();
+	</script>
   </body>
 </html>
