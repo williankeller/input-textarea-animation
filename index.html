@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Input Textarea Animation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/style/inputTextarea.css" media="all" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <textarea class="exemple-one"></textarea>
+    </div>
+    <div class="container">
+      <textarea class="exemple-two"></textarea>
+    </div>
+    <div class="container">
+      <input type="text" class="exemple-three">
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="assets/js/inputTextarea.js"></script>
+    <script>
+      $('.exemple-one').inputTextarea();
+      $('.exemple-two').inputTextarea();
+      $('.exemple-three').inputTextarea();
+    </script>
+  </body>
+</html>
