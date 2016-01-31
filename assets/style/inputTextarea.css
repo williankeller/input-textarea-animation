@@ -1,0 +1,22 @@
+input, textarea {
+  overflow: hidden;
+  font-size: 24px; }
+  input.minor-font, textarea.minor-font {
+    font-size: 16px; }
+
+.container {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px; }
+  .container .exemple-one {
+    width: 300px;
+    height: 30px;
+    padding: 5px; }
+  .container .exemple-two {
+    width: 350px;
+    min-height: 100px; }
+  .container .exemple-three {
+    width: 400px;
+    height: 40px; }
+
+/*# sourceMappingURL=inputTextarea.css.map */

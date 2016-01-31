@@ -1,0 +1,35 @@
+
+// Start default definitions
+input, textarea {
+  overflow: hidden;
+  font-size: 24px;
+
+  &.minor-font {
+    font-size: 16px;
+  }
+}
+// End default definitions
+
+// Start example
+.container {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  
+  .exemple-one {
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+  }
+  
+  .exemple-two {
+    width: 350px;
+    min-height: 100px;
+  }
+  
+  .exemple-three {
+    width: 400px;
+    height: 40px;
+  }
+}
+// End example
